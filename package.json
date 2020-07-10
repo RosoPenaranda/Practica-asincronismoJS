@@ -1,0 +1,25 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "pruebas de asincronismo con JS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node src/callback/index.js",
+    "callback:ch": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js",
+    "promise:ch": "node src/promise/challenge.js",
+    "async": "node src/async/index.js",
+    "async:ch": "node src/async/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Roso peñaranda, rosopenaranda@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
